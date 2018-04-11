@@ -37,7 +37,7 @@ class App extends Component {
       this.setState({winner: this.state.turn})
       return;
     }
-    let bottomRow = this.state.gameBoard[6] + this.state.gameBoard[7] + this.state.gameBoard[8];
+    //let bottomRow = this.state.gameBoard[6] + this.state.gameBoard[7] + this.state.gameBoard[8];
     if (middleRow.match(/xxx|ooo/)){
       this.setState({winner: this.state.turn})
       return;
